@@ -53,7 +53,7 @@ class TestFileStorage(unittest.TestCase):
         """
         self.assertTrue(len(FileStorage.__doc__) >= 1)
 
-    def test_class_docstring(
+    def test_class_docstring(self):
         """
         Tests if class docstring documentation exist
         """
